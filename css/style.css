@@ -1,0 +1,144 @@
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-color: var(--Violet);
+    height: 100vh;
+    width: 100%;
+    scroll-behavior: none;
+    margin: 0;
+    padding: 0;
+}
+.d-flex{
+    padding: 60px 0 0 60px;
+    margin: 0;
+}
+.logo {
+    padding: 30px 0 0 50px;
+}
+.logo img {
+    width: 170px;
+}
+.illustrator.m-2{
+    width: fit-content ;
+}
+.illustrator img {
+    width: 90%;
+} 
+.text{
+    width: 50%;
+    padding-right: 60px;
+    padding-top: 60px;
+}
+.text-white.fw-bold{
+    font-family: 'Poppins', sans-serif;
+}
+.text-white.paragraph{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 15px 100px 15px 0;
+}
+.btn.rounded-5.bg-white.shadow{
+    width: 180px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.6) !important;}
+
+.btn.rounded-5.bg-white.shadow:hover{
+    background-color: var(--Soft-Magenta)!important;
+    color: white; }
+
+.div i {
+    margin: 0px 5px;
+    width: 35px;
+    height: 35px;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+}
+.icons.d-flex.justify-content-end{
+    margin-right: 60px;
+}
+.fa-brands.fa-facebook-f:hover{
+    border: solid 1px var(--Soft-Magenta);
+    color: var(--Soft-Magenta);
+}
+.fa-brands.fa-instagram:hover{
+    border: solid 1px var(--Soft-Magenta);
+    color: var(--Soft-Magenta);
+}
+.fa-brands.fa-twitter:hover{
+    border: solid 1px var(--Soft-Magenta);
+    color: var(--Soft-Magenta);
+}
+.d-flex.flex-column{
+    padding: 0;
+    margin-top: -50px;
+}
+.attribution { font-size: 14px; text-align: center; }
+.attribution a { color: white; }
+
+@media (max-width:600px)
+{
+    section{
+        flex-direction: column;
+        text-align: none;
+        margin: 0 !important;
+        padding: 20px !important;
+    }
+    .text {
+width: fit-content;
+display: flex;
+justify-content: center;
+align-items: center;   
+flex-direction: column;
+padding: 0; 
+margin: 0;}
+
+ .text-white.fw-bold p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   
+} */
+.d-flex {
+    width: 95%;
+    padding: 0;
+    margin: 0;
+}
+.text-white.paragraph 
+{
+    padding: 0;
+} 
+.logo img {
+    width: 125px;
+}
+.illustrator img 
+{
+    width: 100%;
+}
+.icons.d-flex.justify-content-end{
+    margin-right: 128px;
+}
+.text-white.fw-bold{
+    margin-top: 30px;
+    padding: 10px;
+}
+.text-white.paragraph{
+    padding: 20px;
+    text-align: center;
+}
+.btn.rounded-5.bg-white.shadow{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.icons.d-flex.justify-content-end{
+    margin-bottom: 30px;
+}
+}
