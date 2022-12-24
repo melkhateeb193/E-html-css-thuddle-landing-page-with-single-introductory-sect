@@ -25,7 +25,7 @@ header img {
     width: 200px;
 }
 /* illustrator adj */
-section img {
+.IMG-ill {
 width: 600px;
 }
 /* text container adj  */
@@ -89,8 +89,8 @@ width: 600px;
       padding: 0;
       margin: 0;
     }
-    section img {
-      width: 100%;
+    .IMG {
+      width: 80%;
     }
     .container.d-flex{
       flex-direction: column;
