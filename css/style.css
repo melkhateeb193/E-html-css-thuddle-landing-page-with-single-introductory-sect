@@ -120,7 +120,7 @@ width: 600px;
       margin-top: 0;
     }
     .IMG-ill{
-      width: 100%;
+      width: 100% !important;
     }
   }
   
