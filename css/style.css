@@ -68,6 +68,9 @@ width: 600px;
     border: 1px solid var(--hover-color);
     cursor: pointer;
 }
+a{
+  text-decoration: none;
+}
 /* footer */
 .attribution { font-size: 14px; text-align: center; }
 .attribution a { color: white; letter-spacing: 2px; }
